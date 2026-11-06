@@ -69,3 +69,4 @@ build/
 *.a
 *.dylib
 *.o
+.vscode/

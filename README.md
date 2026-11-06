@@ -100,7 +100,7 @@ To run on a real iPhone, pick your own team under *Signing & Capabilities* for b
 - Both return values are checked: if `start()` isn't 0 or `stop()` returns -1, an error message is shown instead of leaving the UI in the wrong state.
 
 **Deployment target**
-- The library (`build_ios.sh`), the wrapper and the app all target iOS 17.0. Using the same version in all three avoids linker warnings about objects built for a newer iOS than the app.
+- The library (`build_ios.sh`), the wrapper and the app all target iOS 17.6. Using the same version in all three avoids linker warnings about objects built for a newer iOS than the app.
 - iOS 17.6 is a recent baseline that still covers most devices. The SwiftUI APIs the app uses are available from iOS 15, so the target could go lower if older devices need support.
 - Any iOS 17+ simulator works, including the iOS 27 simulators that come with Xcode 27.
 

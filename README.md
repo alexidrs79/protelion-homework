@@ -13,6 +13,8 @@ A small iOS app with one button. START starts a timer in a C++ library, STOP sto
   ```
 - Internet access the first time the unit tests are built (CMake downloads GoogleTest 1.17.0)
 
+> **Run `TimerLib/build_ios.sh` before opening Xcode.** The XCFramework is a build output and isn't in the repo, so the project won't build without it.
+
 ## Project structure
 
 ```

@@ -1,3 +1,8 @@
+# Builds TimerLib as a static library by default.
+# Use -DBUILD_SHARED_LIBS=ON for a dynamic library,
+# and -DTIMERLIB_BUILD_TESTS=ON to build the unit tests.
+
+
 cmake_minimum_required(VERSION 3.16)
 project(TimerLib VERSION 1.0 LANGUAGES CXX)
 

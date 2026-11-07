@@ -1,3 +1,6 @@
+# Builds TimerLib for iOS device and simulator,
+# then packages both into TimerLib.xcframework for Xcode.
+
 #!/bin/bash
 set -e
 

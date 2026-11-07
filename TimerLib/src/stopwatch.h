@@ -1,6 +1,9 @@
 #pragma once
 #include <chrono>
  
+// internal class for stopwatch functionality
+// the start time is saved when the object is created.
+
 class Stopwatch {
 public:
     Stopwatch();

@@ -2,6 +2,9 @@
 
 #include "timer.h"
 
+// Objective-C++ file that forwards calls to the C++ library.
+// No timing logic here, all measurement happens in TimerLib.
+
 @implementation TimerWrapper
 
 + (int)start {

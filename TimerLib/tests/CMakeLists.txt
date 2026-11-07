@@ -1,5 +1,7 @@
 include(FetchContent)
 
+# Downloads GoogleTest and builds the TimerLibTests executable.
+
 FetchContent_Declare(
     googletest 
     URL https://github.com/google/googletest/archive/refs/tags/v1.17.0.zip
